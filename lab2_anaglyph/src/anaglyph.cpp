@@ -41,7 +41,7 @@ static int numBoxes = 1;				// Debug: set numBoxes to 1.
 std::vector<glm::mat4> boxTransforms;	// We represent the scene by a single box and a number of transforms for drawing the box at different locations.
 
 // Anaglyph control 
-static float ipd = 7.5f;				// Distance between left/right eye.
+static float ipd = 20.0f;				// Distance between left/right eye.
 // After you implement the anaglyph, adjust the IPD value to control the red/cyan offsets and depth perception. 
 
 enum AnaglyphMode {
